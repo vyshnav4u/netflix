@@ -1,0 +1,19 @@
+.navbar {
+  background: #000;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 100%;
+  padding: 16px 20px;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.nav-profile {
+  color: #fff;
+  text-align: right;
+}

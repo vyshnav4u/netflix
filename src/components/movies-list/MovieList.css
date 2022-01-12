@@ -1,0 +1,28 @@
+.single-movie-poster {
+  max-height: 120px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.lage-poster.single-movie-poster {
+  max-height: 240px;
+}
+
+.movie-posters {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.movie-posters::-webkit-scrollbar {
+  display: none;
+}
+.movie-title {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.movie-list {
+  margin: 20px 0;
+  padding: 40px;
+}
